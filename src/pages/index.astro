@@ -1,0 +1,39 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1> 👋 Hello, <br>Welcome to my corner on the web!</h1>
+			<p>
+				I am a 21-year old Cyber Security Student @ Howest
+			</p>
+			<p>
+				I've always had a great passion for IT and cybersecurity. Ever since I was a child, I knew I wanted to pursue a career in informatics. That's why I decided to follow my passion and enrolled in the bachelor's degree of Applied computer science with a minor in cybersecurity.
+
+			</p>
+			<h2>
+				What am I currently working on?
+			</h2>
+			<p>
+				An overview of the projects I'm currently working on!
+			</p>
+			<p>
+				👉 <a href="https://cybersecurity-cookbook.super.site/" target="_blank">Cybersecurity Cookbook</a>
+			</p>
+			<p>
+				👉 <a href="https://cobalt-chicken-fb6.notion.site/AI-Based-Crypto-Trading-Bot-2bb560fd369b4c768960495de7dda485" target="_blank">AI Based Crypto Trading Bot</a>
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
