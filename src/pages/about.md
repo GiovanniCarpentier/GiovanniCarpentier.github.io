@@ -6,21 +6,20 @@ updatedDate: "January 25 2023"
 heroImage: "/placeholder-about.jpg"
 ---
 
-# About Me!
-My name is Giovanni Carpentier, I am 21 years-old and I live in Belgium. I've always had a great passion for IT and cybersecurity. Ever since I was a child, I knew I wanted to pursue a career in informatics. That's why I decided to follow my passion and enrolled in the bachelor's degree of Applied computer science with a minor in cybersecurity.
+# 👨‍💼 About Me!
+Hi there! My name is Giovanni Carpentier. I'm a 21-year-old from Belgium with a passion for IT and cybersecurity. I've been interested in these fields since I was a child, and I'm currently pursuing a bachelor's degree in Applied Computer Science with a minor in Cybersecurity.
 
-## Contact
-If you are interested in working with me you can contact me on LinkedIn or email: giovannicarpentier@outlook.com
+## 📧 Contact
+If you're interested in working with me, please don't hesitate to reach out via LinkedIn or email: giovannicarpentier@outlook.com
 
-# Other Information
-Below you can find a list of all important information about me!
+# 📝 Other Information
 
-## Education
+## 🎓 Education
 - 2020 - present // Howest in Bruges - **Applied Computer Science**
 - 2014 - 2020 // Sint-Jozef Sint-Pieter in Blankenberge - **IT and Networks**
 
-## Technical Skills
-### Development
+## 💻 Technical Skills
+### 🖥️ Development
 - JS, HTML, CSS (Intermediate)
 - Astro / React (Basic)
 - Java (Intermediate)
@@ -28,19 +27,19 @@ Below you can find a list of all important information about me!
 - Bash / Powershell (Intermediate)
 - SQL (Intermediate)
 
-### Security
+### 🔒 Security
 - Reverse Engineering (Basic)
 - Penetration Testing (Basic)
 - Defensive / SOC (Basic)
 - Forensic Analysis (Basic)
 
-### Others
+### 🌐 Others
 - Networking (Intermediate)
 - Cloud computing (Basic)
 - Virtualization (Intermediate)
 - Linux / Windows (Intermediate)
 
-## Work Experience
-- 02/2023 - 06/2023 // Formica: Cyber Security with Elastic - Internship
+## 💼 Work Experience
+- Feb 2023 - June 2023 // Formica: Cyber Security with Elastic - Internship
 - 2018 - 2021 // Colruyt - Student Job
 - 2017 - 2018 // Wa Nieuws - Student Job
