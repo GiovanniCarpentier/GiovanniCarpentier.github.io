@@ -6,7 +6,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import { getCollection } from 'astro:content';
 
 const posts = (await getCollection('blog')).sort(
-	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 ---
 
@@ -19,18 +19,23 @@ const posts = (await getCollection('blog')).sort(
 				list-style-type: none;
 				padding: unset;
 			}
+		
 			ul li {
 				display: flex;
+				margin-bottom: 0.8em; /* add some bottom margin */
 			}
+		
 			ul li time {
 				flex: 0 0 130px;
 				font-style: italic;
 				color: #595959;
 			}
+		
 			ul li a:visited {
-				color: #8e32dc;
+				color: rgb(1, 150, 51);
 			}
 		</style>
+		
 	</head>
 	<body>
 		<Header />
