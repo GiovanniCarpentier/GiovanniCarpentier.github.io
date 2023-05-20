@@ -6,10 +6,10 @@ heroImage: "/elastic-azure-webinar-2023/hero.png"
 ---
 
 # The Webinar
-The webinar was a virtual event hosted by Elastic with 3 speakers. Jamer Spiteri (Product Marketing Director, Elastic), Israel Ekpo (Principal Cloud Solutions Architect, Microsoft) and Jeff Maddocks (Principal Solutions Architect, Elastic).
+The webinar was a virtual event hosted by Elastic, featuring three distinguished speakers: Jamer Spiteri, Product Marketing Director at Elastic; Israel Ekpo, Principal Cloud Solutions Architect at Microsoft; and Jeff Maddocks, Principal Solutions Architect at Elastic.
 
 ## Summary
-They started off by giving an overview of Elastic Security features in an Azure context. Then they won't on with the partnership goals Elastic & Microsoft have together. After that they did some demo's to show Elastic in action on an Azure environment.
+The webinar commenced with an insightful overview of Elastic Security features specifically tailored for an Azure context. The speakers delved into the partnership goals shared by Elastic and Microsoft, underscoring their collaborative efforts. Additionally, the event included captivating demonstrations that showcased the practical application of Elastic on an Azure environment.
 
 # My Experience
 My experience with the webinar was great. As someone who was already working with Elastic during my internship, it provided me with valuable insights on how Elastic can be effectively used in an Azure environment. The live demonstrations during the webinar were particularly helpful. Seeing Elastic in action on an Azure environment allowed me to witness the practical application of its features and capabilities.
