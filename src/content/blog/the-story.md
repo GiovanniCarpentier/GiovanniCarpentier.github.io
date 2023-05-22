@@ -13,7 +13,7 @@ To solve this problem, I decided to build my website from scratch using the Astr
 
 One of Astro's standout features is its ability to use Markdown to create pages. Instead of writing articles in HTML, I used Notion to create my blog posts and exported them as Markdown files in my Astro project. This streamlined the writing process and allowed me to focus on the content itself.
 
-The only issue I faced was that my free hosting plan came with WordPress CMS, which I couldn't change. To solve this problem, I bought my own hosting plan on Hostinger and migrated my site there.
+The only issue I faced was that my free hosting plan came with WordPress CMS, which I couldn't change. To solve this problem, I used the hosting provided by GitHub Pages.
 
 # The Design
 To solve this problem, I decided to build my website from scratch using the Astro framework. It was my first time using Astro, but I found it intuitive and easy to use. I began with the basic Astro blog template project and customized it to fit my needs. Astro's integration with other frameworks, such as React, made it easy to create a CMS for my blog posts.
