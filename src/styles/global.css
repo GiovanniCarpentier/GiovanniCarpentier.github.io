@@ -65,3 +65,40 @@ blockquote {
 	margin: 0px;
 	font-style: italic;
 }
+.experience-list {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+  list-style: none;
+  border-left: 2px solid #00c78c;
+}
+
+.experience-list li {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.experience-list li::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 0.35rem;
+  width: 10px;
+  height: 10px;
+  background-color: #00ff95;
+  border-radius: 50%;
+  border: 2px solid #0d0d0d;
+}
+
+.experience-list strong {
+  color: #b5ffe5;
+  font-size: 1rem;
+}
+
+.experience-list li:hover {
+  background: rgba(0, 255, 149, 0.05);
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
