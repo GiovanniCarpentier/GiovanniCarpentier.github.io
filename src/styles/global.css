@@ -102,3 +102,32 @@ blockquote {
   transition: background 0.2s ease;
 }
 
+.certifications {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  .cert-card {
+    background: linear-gradient(135deg, #00ff95 0%, #00c78c 100%);
+    color: #0d0d0d;
+    padding: 1.25rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 255, 149, 0.25);
+    flex: 1 1 220px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: default;
+  }
+
+  .cert-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 24px rgba(0, 255, 149, 0.4);
+  }
+
+  .cert-card h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-align: center;
+  }
