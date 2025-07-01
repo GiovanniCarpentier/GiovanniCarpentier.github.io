@@ -4,22 +4,54 @@ import { SITE_TITLE } from '../consts';
 ---
 
 <header>
-	<h2>
-		{SITE_TITLE}
-	</h2>
-	<nav>
-		<HeaderLink href="/">Home</HeaderLink>
-		<HeaderLink href="/blog">Blog</HeaderLink>
-		<HeaderLink href="/about">About</HeaderLink>
-		<HeaderLink href="https://www.linkedin.com/in/giovanni-carpentier-84a712254/" target="_blank">LinkedIn</HeaderLink>
-		<HeaderLink href="https://github.com/GiovanniCarpentier" target="_blank">GitHub</HeaderLink>
-	</nav>
+  <div class="container">
+    <h2>{SITE_TITLE}</h2>
+    <nav>
+      <HeaderLink href="/">Home</HeaderLink>
+      <HeaderLink href="https://www.linkedin.com/in/giovanni-carpentier-84a712254/" target="_blank">LinkedIn</HeaderLink>
+      <HeaderLink href="https://github.com/GiovanniCarpentier" target="_blank">GitHub</HeaderLink>
+    </nav>
+  </div>
 </header>
+
 <style>
-	header {
-		margin: 0em 0 2em;
-	}
-	h2 {
-		margin: 0.5em 0;
-	}
+  header {
+    background-color: #0d0d0d;
+    padding: 1rem 0;
+    border-bottom: 1px solid #1f1f1f;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    background: linear-gradient(to right, #00ff95, #00c78c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  nav {
+    display: flex;
+    gap: 1.25rem;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #b5ffe5;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+  }
+
+  nav a:hover {
+    color: #63f7b3;
+  }
 </style>

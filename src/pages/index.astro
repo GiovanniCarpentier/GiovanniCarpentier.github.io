@@ -1,4 +1,5 @@
 ---
+// src/pages/index.astro
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -7,35 +8,115 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header title={SITE_TITLE} />
-		<main>
-			<h1> 👋 Hello, My name is Giovanni <br> Welcome to my corner on the web! </h1>
-			<p>
-				Ever since I was a child, I have been deeply fascinated by the field of IT and cybersecurity. I have always known that I wanted to pursue a career in informatics, which is why I decided to follow my passion and enrolled in a Bachelor's degree program in Applied Computer Science with a minor in Cybersecurity.
-				<br><br>
-				I am deeply committed to this field and believe that my combination of technical skills and knowledge of cybersecurity will enable me to contribute to the industry in a meaningful way. I am eager to learn and grow in my field, and I believe that my degree program will provide me with the knowledge and practical experience necessary to achieve my career goals.
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 4rem 1.5rem;
+        color: #e0e0e0;
+        font-family: system-ui, sans-serif;
+      }
 
-			</p>
-			<h2>
-				🌱 What am I currently working on?
-			</h2>
-			<p>
-				An overview of the projects I'm currently working on!
-			</p>
-			<p>
-				👉 (Personal Project) <a href="https://cobalt-chicken-fb6.notion.site/Cybersecurity-Cookbook-ff784e798d60435bb7a4883a31fb7d67" target="_blank">Cybersecurity Cookbook</a>
-			</p>
-			<p>
-				👉 (Personal Project) <a href="https://cobalt-chicken-fb6.notion.site/AI-Based-Crypto-Trading-Bot-2bb560fd369b4c768960495de7dda485" target="_blank">AI Based Crypto Trading Bot</a>
-			</p>
-			<p>
-				👉 (Internship) Cybersecurity with Elastic @ Formica
-			</p>
-		</main>
-		<Footer />
-	</body>
+      h1, h2 {
+        color: #90ee90;
+        background-image: linear-gradient(to right, #00ff95, #00c78c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.75rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      ul {
+        list-style: disc;
+        margin-left: 1.5rem;
+        line-height: 1.6;
+      }
+
+      .tag {
+        display: inline-block;
+        background-color: #005f4f;
+        color: white;
+        padding: 0.3em 0.75em;
+        border-radius: 999px;
+        font-size: 0.85rem;
+        margin: 0.2em 0.4em 0.4em 0;
+      }
+
+      a {
+        color: #63f7b3;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      body {
+        background-color: #0d0d0d;
+      }
+    </style>
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+
+    <main>
+      <h1>👋 Hi, I'm Giovanni</h1>
+      <p>
+        I'm an ELK Stack Consultant & System Engineer focused on observability, DevOps, and security. I currently consult on Elastic projects involving anomaly detection, application performance monitoring, and threat detection. Internally, I support DevOps tooling and infrastructure across AWS, Jenkins, Kubernetes, and more.
+      </p>
+
+      <h2>💼 Work Experience</h2>
+      <p><strong>ELK Stack Consultant / System Engineer</strong><br />
+      <em>September 2023 - Present</em></p>
+      <ul>
+        <li>Elastic consulting on anomaly detection, APM, and security</li>
+        <li>Internal DevOps work (Ansible, Jenkins, AWS, Kubernetes)</li>
+      </ul>
+
+      <h2>🛠️ Skills</h2>
+      <div>
+        <span class="tag">Kubernetes</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Elasticsearch</span>
+        <span class="tag">Kibana</span>
+        <span class="tag">Logstash</span>
+        <span class="tag">DevOps</span>
+        <span class="tag">System Administration</span>
+        <span class="tag">Cloud</span>
+      </div>
+
+      <h2>📜 Certifications</h2>
+      <ul>
+        <li>Elastic Observability Engineer</li>
+        <li>Elastic Sales Professional</li>
+      </ul>
+
+      <h2>📂 Projects</h2>
+      <ul>
+        <li>
+          <a href="https://cobalt-chicken-fb6.notion.site/Cybersecurity-Cookbook-ff784e798d60435bb7a4883a31fb7d67" target="_blank">
+            Cybersecurity Cookbook
+          </a>
+        </li>
+        <li>
+          <a href="https://cobalt-chicken-fb6.notion.site/AI-Based-Crypto-Trading-Bot-2bb560fd369b4c768960495de7dda485" target="_blank">
+            AI-Based Crypto Trading Bot
+          </a>
+        </li>
+      </ul>
+    </main>
+
+    <Footer />
+  </body>
 </html>
